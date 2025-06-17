@@ -1,8 +1,6 @@
-import logo from './logo.svg';
-import { FaReact } from "react-icons/fa";
+
 import ProfileCard from './components/ProfileCard'
 import SpotlightCard from './components/Knowladge';
-import Silk from './components/Background';
 import './App.css'
 import ChromaGrid from './components/Work';
 
