@@ -94,11 +94,11 @@ function App() {
         </SpotlightCard>
         <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
             <h1>Javascript</h1>
-            <h2></h2>
+            <h2>1</h2>
         </SpotlightCard>
         <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
             <h1>Node.js</h1>
-            <h2></h2>
+            <h2>1</h2>
         </SpotlightCard>
         <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
             <h1>Git</h1>
@@ -110,11 +110,11 @@ function App() {
         </SpotlightCard>
         <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
             <h1>Software Testing</h1>
-            <h2></h2>
+            <h2>1</h2>
         </SpotlightCard>
         <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
             <h1>Firebase</h1>
-            <h2></h2>
+            <h2>1</h2>
         </SpotlightCard>
       </div>
       <div className='work-text'>
