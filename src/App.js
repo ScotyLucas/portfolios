@@ -94,7 +94,7 @@ const items2 = [
         /></div>
         <div className='knowladge-text'>
           <h1>
-            My Knowladge
+            My Knowledge
           </h1>
         </div>
       <div className='knowladge'>
