@@ -26,6 +26,10 @@ body {
   width: 300px;
   
 }
+.knowladg {
+  display: flex;
+  gap: 5px;
+}
 
 .knowladge-text, .work-text {
   text-align: center;

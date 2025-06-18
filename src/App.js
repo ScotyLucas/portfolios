@@ -3,12 +3,14 @@ import ProfileCard from './components/ProfileCard'
 import SpotlightCard from './components/Knowladge';
 import './App.css'
 import ChromaGrid from './components/Work';
+import movieSearchImg from './images/movie_search.png';
+import Invoicepng from './images/invoice_img.png';
 
 function App() {
   
   const items = [
   {
-    image: "https://i.pravatar.cc/300?img=1",
+    image: movieSearchImg,
     title: "Movie Search",
     subtitle: "",
     handle: "",
@@ -17,7 +19,7 @@ function App() {
     url: "https://demo1.vidiczkimate.eu"
   },
   {
-    image: "https://i.pravatar.cc/300?img=2",
+    image: Invoicepng,
     title: "EasyInvoice",
     subtitle: "",
     handle: "",
@@ -27,13 +29,43 @@ function App() {
   },
   {
     image: "https://i.pravatar.cc/300?img=2",
-    title: "Wokr3",
+    title: "Wokr 3",
     subtitle: "",
     handle: "",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg,rgb(83, 0, 216), #000)",
-    url: ""
+    url: "https://demo1.vidiczkimate.eu/"
   }
+];
+
+const items2 = [
+  {
+    image: "https://i.pravatar.cc/300?img=2",
+    title: "Work 4",
+    subtitle: "",
+    handle: "",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+    url: "https://demo1.vidiczkimate.eu"
+  },
+  {
+    image: "https://i.pravatar.cc/300?img=2",
+    title: "Work 5",
+    subtitle: "",
+    handle: "",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(180deg, #10B981, #000)",
+    url: "https://demo1.vidiczkimate.eu"
+  },
+  {
+    image: "https://i.pravatar.cc/300?img=2",
+    title: "Work 6",
+    subtitle: "",
+    handle: "",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(180deg,rgb(83, 0, 216), #000)",
+    url: "https://demo1.vidiczkimate.eu"
+  },
 ];
 
   return (
@@ -123,6 +155,13 @@ function App() {
       <div className='work'>
   <ChromaGrid 
     items={items}
+    radius={300}
+    damping={0.45}
+    fadeOut={0.6}
+    ease="power3.out"
+  />
+  <ChromaGrid 
+    items={items2}
     radius={300}
     damping={0.45}
     fadeOut={0.6}
