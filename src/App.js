@@ -5,6 +5,7 @@ import './App.css'
 import ChromaGrid from './components/Work';
 import movieSearchImg from './images/movie_search.png';
 import Invoicepng from './images/invoice_img.png';
+import weatherAppImg from './images/weatherapp.png';
 
 function App() {
   
@@ -28,13 +29,13 @@ function App() {
     url: "https://easyinv.vidiczkimate.eu"
   },
   {
-    image: "https://i.pravatar.cc/300?img=2",
-    title: "Wokr 3",
+    image: "weatherAppImg",
+    title: "Weather app",
     subtitle: "",
     handle: "",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg,rgb(83, 0, 216), #000)",
-    url: "https://demo1.vidiczkimate.eu/"
+    url: "https://weatherjs.vidiczkimate.eu/"
   }
 ];
 
