@@ -29,7 +29,7 @@ function App() {
     url: "https://easyinv.vidiczkimate.eu"
   },
   {
-    image: "weatherAppImg",
+    image: weatherAppImg,
     title: "Weather app",
     subtitle: "",
     handle: "",
