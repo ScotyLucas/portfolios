@@ -40,35 +40,35 @@ function App() {
   }
 ];
 
-const items2 = [
-  {
-    image: "https://i.pravatar.cc/300?img=2",
-    title: "Work 4",
-    subtitle: "",
-    handle: "",
-    borderColor: "#3B82F6",
-    gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://demo1.vidiczkimate.eu"
-  },
-  {
-    image: "https://i.pravatar.cc/300?img=2",
-    title: "Work 5",
-    subtitle: "",
-    handle: "",
-    borderColor: "#3B82F6",
-    gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://demo1.vidiczkimate.eu"
-  },
-  {
-    image: "https://i.pravatar.cc/300?img=2",
-    title: "Work 6",
-    subtitle: "",
-    handle: "",
-    borderColor: "#3B82F6",
-    gradient: "linear-gradient(180deg,rgb(83, 0, 216), #000)",
-    url: "https://demo1.vidiczkimate.eu"
-  },
-];
+// const items2 = [
+//   {
+//     image: "https://i.pravatar.cc/300?img=2",
+//     title: "Work 4",
+//     subtitle: "",
+//     handle: "",
+//     borderColor: "#3B82F6",
+//     gradient: "linear-gradient(145deg, #3B82F6, #000)",
+//     url: "https://demo1.vidiczkimate.eu"
+//   },
+//   {
+//     image: "https://i.pravatar.cc/300?img=2",
+//     title: "Work 5",
+//     subtitle: "",
+//     handle: "",
+//     borderColor: "#3B82F6",
+//     gradient: "linear-gradient(180deg, #10B981, #000)",
+//     url: "https://demo1.vidiczkimate.eu"
+//   },
+//   {
+//     image: "https://i.pravatar.cc/300?img=2",
+//     title: "Work 6",
+//     subtitle: "",
+//     handle: "",
+//     borderColor: "#3B82F6",
+//     gradient: "linear-gradient(180deg,rgb(83, 0, 216), #000)",
+//     url: "https://demo1.vidiczkimate.eu"
+//   },
+// ];
 
   return (
     <div className="App">
