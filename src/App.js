@@ -171,13 +171,13 @@ const items2 = [
     fadeOut={0.6}
     ease="power3.out"
   />
-  <ChromaGrid 
+  {/* <ChromaGrid 
     items={items2}
     radius={300}
     damping={0.45}
     fadeOut={0.6}
     ease="power3.out"
-  />
+  /> */}
       </div>
     </div>
   );
