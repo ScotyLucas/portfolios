@@ -6,6 +6,7 @@ import ChromaGrid from './components/Work';
 import movieSearchImg from './images/movie_search.png';
 import Invoicepng from './images/invoice_img.png';
 import weatherAppImg from './images/weatherapp.png';
+import ProfilePic from "./images/pfp.png"
 
 function App() {
   
@@ -84,7 +85,7 @@ const items2 = [
 
           contactText="Contact Me"
 
-          avatarUrl="/path/to/avatar.jpg"
+          avatarUrl= {ProfilePic}
 
           showUserInfo={true}
 
