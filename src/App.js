@@ -99,57 +99,66 @@ const items2 = [
           </h1>
         </div>
       <div className='knowladge'>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-            
-            <h1>React</h1>
-            <h2>I'm using react long time. Not always for my past jobs just for my own projects.</h2>
+  <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+    <h1>React</h1>
+    <h2>I've been working with React for years, both professionally and in personal projects. It's my go-to framework for building dynamic web apps.</h2>
+  </SpotlightCard>
 
-        </SpotlightCard>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-            <h1>React Vite</h1>
-            <h2>I started using and learning vite 1 year ago, but i'm always love to learn new thing.</h2>
-        </SpotlightCard>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-            <h1>Agular</h1>
-            <h2>I'm new to Angular, but i'm optimistic about it.</h2>
-        </SpotlightCard>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-            <h1>HTML5</h1>
-            <h2>I'm started coding in html when i was 13 and it hold nothing new for me.</h2>
-        </SpotlightCard>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-            <h1>Bootstarp</h1>
-            <h2>I'm activly using Bootstrap for my little project like OPS's.</h2>
-        </SpotlightCard>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-            <h1>CSS3 SASS/SCSS</h1>
-            <h2>Also css is not hoolding any new to me. I'm master in css and SASS/SCSS.</h2>
-        </SpotlightCard>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-            <h1>Javascript</h1>
-            <h2>1</h2>
-        </SpotlightCard>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-            <h1>Node.js</h1>
-            <h2>1</h2>
-        </SpotlightCard>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-            <h1>Git</h1>
-            <h2>Version controlling, pull and push, commit, i know how to use Git.</h2>
-        </SpotlightCard>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-            <h1>SEO</h1>
-            <h2>Link building, File storage and domain setting up.</h2>
-        </SpotlightCard>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-            <h1>Software Testing</h1>
-            <h2>1</h2>
-        </SpotlightCard>
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-            <h1>Firebase</h1>
-            <h2>1</h2>
-        </SpotlightCard>
-      </div>
+  <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+    <h1>React + Vite</h1>
+    <h2>I started using Vite a year ago, and it’s now a core part of my modern frontend workflow. I'm always eager to adopt faster, better tools.</h2>
+  </SpotlightCard>
+
+  <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+    <h1>Angular</h1>
+    <h2>I’m relatively new to Angular, but I enjoy exploring its structure and potential. Always open to learning new frameworks.</h2>
+  </SpotlightCard>
+
+  <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+    <h1>HTML5</h1>
+    <h2>I started coding in HTML at the age of 13. It's second nature to me now, and forms the solid base of all my frontend work.</h2>
+  </SpotlightCard>
+
+  <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+    <h1>Bootstrap</h1>
+    <h2>I regularly use Bootstrap for small- to mid-sized projects, especially for quick prototypes and admin panels.</h2>
+  </SpotlightCard>
+
+  <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+    <h1>CSS3 / SASS / SCSS</h1>
+    <h2>I'm confident with CSS, and have extensive experience with SASS/SCSS for writing clean, scalable stylesheets.</h2>
+  </SpotlightCard>
+
+  <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+    <h1>JavaScript</h1>
+    <h2>JavaScript is the heart of my web development work. I'm comfortable with both ES6+ and asynchronous programming.</h2>
+  </SpotlightCard>
+
+  <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+    <h1>Node.js</h1>
+    <h2>Experienced with Node.js for building backend APIs, RESTful services, and real-time applications.</h2>
+  </SpotlightCard>
+
+  <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+    <h1>Git</h1>
+    <h2>Comfortable using Git for version control—commit, push, pull, branching, and collaborating via GitHub or GitLab.</h2>
+  </SpotlightCard>
+
+  <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+    <h1>SEO</h1>
+    <h2>Hands-on experience with on-page SEO, link building, and optimizing site structure and metadata for better rankings.</h2>
+  </SpotlightCard>
+
+  <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+    <h1>Software Testing</h1>
+    <h2>Basic knowledge of writing and running unit and integration tests to ensure code reliability and performance.</h2>
+  </SpotlightCard>
+
+  <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+    <h1>Firebase</h1>
+    <h2>I've used Firebase for real-time databases, hosting, and authentication in small- to mid-size projects.</h2>
+  </SpotlightCard>
+</div>
       <div className='work-text'>
             <h1>My works</h1>
       </div>
