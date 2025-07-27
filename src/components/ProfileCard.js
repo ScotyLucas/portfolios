@@ -237,8 +237,9 @@ const ProfileCardComponent = ({
   );
 
   const handleContactClick = useCallback(() => {
-    onContactClick?.();
-  }, [onContactClick]);
+  window.location.href = "mailto:vidiczkimate@vidiczkimate.eu";
+  onContactClick?.();
+}, [onContactClick]);
 
   return (
     <div
