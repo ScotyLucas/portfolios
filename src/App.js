@@ -94,6 +94,9 @@ function App() {
           onContactClick={() => console.log('Contact clicked')}
 
         /></div>
+          <div className="email">
+            <h6>vidiczkimate@vidiczkimate.eu</h6>
+          </div>
         <div className='knowladge-text'>
           <h1>
             My Knowledge
