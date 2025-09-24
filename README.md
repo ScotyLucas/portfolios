@@ -1,41 +1,8 @@
-# Welcome to my portfolio page 
+## Welcome ti my portfolio
 
-I made this for my portfolio.
+# Hope you like it
 
-# What i used for my portfolio?
+## What i used?
+I used react and css.
 
--React
--JavaScript (ES6+)
--CSS
-
-# Portfolio Structure
-.
-├── public/
-
-│   └── index.html
-
-├── src/
-
-│   ├── assets/     
-
-│   ├── components/      
-
-│   ├── pages/            
-
-│   ├── App.jsx
-
-│   └── index.js
-├── package.json
-└── README.md
-
-# Texts and Pictures fully editable
-
-## How to start on your local machine?
-
-git clone https://github.com/ScotyLucas/portfolios.git
-
-cd portfolios
-
-npm install
-
-npm run dev
+i had some pre maid components
